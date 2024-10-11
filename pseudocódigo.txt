@@ -1,0 +1,53 @@
+PSEUDOCÓDIGO
+
+var
+/declaramos todas las variables que utilizaremos
+  largoPiscinaUno: entero;
+  anchoPiscinaUno: entero;
+  profundidadPiscinaUno: entero;
+  largoPiscinaDos: entero;
+  anchoPiscinaDos: entero;
+  profundidadPiscinaDos: entero;
+  areaPiscinaUno: entero;
+  areaPiscinaDos: entero;
+  volumenPiscinaUno: entero;
+  volumenPiscinaDos: entero;
+  largoTotalPiscinas: entero;
+  anchoTotalPiscinas: entero;
+  
+fvar
+/le damos valor a las variables
+  largoPiscinaUno = 300
+  anchoPicinaUno = 150
+  profundidadPiscinaUno = 20
+  largoPiscinaDos = 300
+  anchoPiscinaDos = 80
+  profundidadPiscinaDos = 35
+  areaPiscinaUno = anchoPiscinaUno * largoPiscinaUno
+  areaPiscinaDos = anchoPiscinaDos * largoPiscinaDos
+  volumenPiscinaUno = areaPiscinaUno * profundidadPiscinaUno
+  volumenPiscinaDos = areaPiscinaDos * profundidadPiscinaDos
+  anchoTotalPiscinas = anchoPiscinaUno + largoPiscinaDos
+  areaTotalPiscinas = areaPiscinaUno + areaPiscinaDos
+  volumenTotalPiscinas = volumenPiscinaUno + volumenPiscinaDos
+  profundidadTemporalPiscinaUno = profundidadPiscinaUno
+/para mostrar los resultados
+  imprimir "Área piscina 1: ", areaPiscinaUno
+  imprimir "Área piscina 2: ", areaPiscinaUno
+  imprimir "Volumen piscina 1: ", volumenPiscinaUno
+  imprimir "Volumen piscina 2: ", volumePiscinaDos
+  imprimir "Largo total de las 2 piscinas: ", largoTotalPiscinaUno
+  imprimir "Ancho total de las 2 piscinas: ", anchoTotalPiscinas
+  imprimir "Área total de las 2 piscinas: ", areaTotalPiscinas
+  imprimir "Volumen total de las 2 piscinas: ", volumenTotalPiscinas
+/intercambiar valores
+  profundidadPiscinaUno := profundidadPiscinaDos
+  profundidadPiscinaDos := profundidadPiscinaUno
+/creamos nuevos datos con los datos intercambiados
+  areaPiscinaUnoIntercambiada = largoPiscinaUno * anchoPiscinaUno
+  volumenPiscinaUnoIntercambiada = arePiscinaUno * profundidadPiscinaUno
+  areaPiscinaDosIntercambiada = ancho
+/mostramos los resultados de los datos intercambiados que nos faltan
+  imprimir "Volumen de la piscina 1: ", volumenPiscinaUnoIntercambiada
+  imprimir "Volumen de la piscina 2: ", volumenPiscinaDosIntercambiada
+  
